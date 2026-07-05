@@ -1,0 +1,970 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DragonPills B2B - Multiplica las ganancias de tu Hotel o Motel</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome Icons para una apariencia premium -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brandDark: '#070D19',      /* Azul noche ultra profundo */
+            brandNavy: '#0F1E36',      /* Azul marino elegante */
+            brandGold: '#D4AF37',      /* Oro premium */
+            brandGoldHover: '#F3E5AB', /* Oro claro */
+            brandSilver: '#E5E7EB',    /* Plata */
+            brandAccent: '#1D4ED8',    /* Azul acento */
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .text-glow {
+      text-shadow: 0 0 10px rgba(212, 175, 55, 0.4);
+    }
+    .bg-luxury-gradient {
+      background: radial-gradient(circle at top, #112240 0%, #070D19 100%);
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #070D19;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #D4AF37;
+      border-radius: 3px;
+    }
+    /* Estilos para tabs logísticos */
+    .tab-active {
+      border-color: #D4AF37;
+      color: #D4AF37;
+      background-color: rgba(212, 175, 55, 0.05);
+    }
+  </style>
+</head>
+<body class="bg-brandDark text-gray-200 font-sans custom-scrollbar">
+
+  <!-- ================= BARRA DE NAVEGACIÓN ================= -->
+  <nav class="sticky top-0 z-50 bg-brandDark/90 backdrop-blur-md border-b border-brandGold/10 px-4 py-3">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <!-- Logo Oficial (IMG-07) -->
+      <a href="#" class="flex items-center gap-3">
+        <img src="image_4.png" alt="DragonPills Logo" class="h-10 w-auto object-contain border border-brandGold/20 rounded-md p-0.5" onerror="this.src='https://placehold.co/150x50/0f1e36/ffffff?text=DRAGON+PILLS'">
+        <span class="text-brandGold font-bold text-lg tracking-wider hidden sm:block">HOTEL B2B</span>
+      </a>
+      
+      <!-- Enlaces de Navegación -->
+      <div class="hidden lg:flex items-center gap-6">
+        <a href="#beneficios" class="hover:text-brandGold transition duration-200 text-xs font-bold uppercase tracking-wider">Beneficios</a>
+        <a href="#calculadora" class="hover:text-brandGold transition duration-200 text-xs font-bold uppercase tracking-wider">Simulador Financiero</a>
+        <a href="#logistica" class="hover:text-brandGold transition duration-200 text-xs font-bold uppercase tracking-wider">Entrega & Abasto</a>
+        <a href="#galeria" class="hover:text-brandGold transition duration-200 text-xs font-bold uppercase tracking-wider">Casos Reales</a>
+        <a href="#material" class="hover:text-brandGold transition duration-200 text-xs font-bold uppercase tracking-wider">Material POP</a>
+        <a href="#confianza" class="hover:text-brandGold transition duration-200 text-xs font-bold uppercase tracking-wider">Permisos</a>
+      </div>
+
+      <!-- Botón de Acción -->
+      <a href="#contacto" class="bg-gradient-to-r from-brandGold to-yellow-600 hover:from-yellow-600 hover:to-brandGold text-brandDark font-bold px-4 py-2 rounded-lg text-xs tracking-wider uppercase transition-all duration-300 shadow-lg shadow-brandGold/10 flex items-center gap-2">
+        <i class="fa-solid fa-gift animate-bounce"></i>
+        <span>Muestra Gratis</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- ================= SECCIÓN HERO ================= -->
+  <header class="relative overflow-hidden py-16 lg:py-24 bg-luxury-gradient border-b border-brandGold/5">
+    <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+      
+      <!-- Textos Hero -->
+      <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+        <span class="inline-flex items-center gap-2 bg-brandGold/10 border border-brandGold/30 text-brandGold text-xs font-bold px-3 py-1.5 rounded-full tracking-wider uppercase">
+          <i class="fa-solid fa-hotel"></i> Canal Oficial para Hoteles y Moteles
+        </span>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
+          Multiplica las utilidades de tu suite con <span class="text-brandGold text-glow">DragonPills</span>
+        </h1>
+        <p class="text-gray-300 text-base sm:text-lg leading-relaxed">
+          Ofrece el potenciador sexual de venta por impulso más demandado de México. Un amenitie discreto, 100% natural, con registro sanitario federal y con **logística garantizada de abasto en menos de 2 horas para CDMX y envíos express nacionales.**
+        </p>
+        <div class="flex flex-wrap justify-center lg:justify-start gap-4 pt-4">
+          <a href="#logistica" class="bg-brandNavy hover:bg-brandNavy/80 text-white font-bold px-6 py-3.5 rounded-xl border border-brandGold/30 shadow-md transition-all duration-300 flex items-center gap-2 text-sm">
+            <i class="fa-solid fa-truck-fast text-brandGold"></i>
+            <span>Logística & Envíos</span>
+          </a>
+          <a href="#contacto" class="bg-gradient-to-r from-brandGold to-yellow-600 hover:from-yellow-600 hover:to-brandGold text-brandDark font-extrabold px-6 py-3.5 rounded-xl shadow-xl shadow-brandGold/20 transition-all duration-300 flex items-center gap-2 text-sm">
+            <span>Solicitar Kit de Demostración</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+        
+        <!-- Beneficios Rápidos -->
+        <div class="grid grid-cols-3 gap-4 pt-6 border-t border-gray-800">
+          <div class="text-center lg:text-left">
+            <h4 class="text-brandGold font-bold text-2xl sm:text-3xl">+114%</h4>
+            <p class="text-xs text-gray-400">Margen por unidad</p>
+          </div>
+          <div class="text-center lg:text-left">
+            <h4 class="text-brandGold font-bold text-2xl sm:text-3xl">2 Horas</h4>
+            <p class="text-xs text-gray-400">Entrega en CDMX</p>
+          </div>
+          <div class="text-center lg:text-left">
+            <h4 class="text-brandGold font-bold text-2xl sm:text-3xl">COFEPRIS</h4>
+            <p class="text-xs text-gray-400">Garantía Sanitaria</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Imagen Destacada Hero (IMG-01 -> image_5.png) -->
+      <div class="lg:col-span-5 relative">
+        <div class="absolute inset-0 bg-brandGold/10 blur-3xl rounded-full"></div>
+        <div class="relative bg-brandNavy/40 border border-brandGold/20 p-2 rounded-2xl shadow-2xl overflow-hidden group">
+          <img id="hero-img" src="image_5.png" alt="DragonPills Banner Fuego e Hielo" class="w-full h-auto rounded-xl object-cover transform group-hover:scale-105 transition-all duration-700" onerror="handleImageError(this, 'IMG-01')">
+          <div class="absolute bottom-4 left-4 right-4 bg-black/80 backdrop-blur-md p-3 rounded-xl border border-white/10 text-center">
+            <p class="text-xs text-brandGold font-semibold"><i class="fa-solid fa-fire text-orange-500 animate-pulse"></i> Sensación de Fuego y Hielo: Pasión y Control Extremo <i class="fa-regular fa-snowflake text-blue-400 animate-spin"></i></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ================= BENEFICIOS OPERATIVOS B2B ================= -->
+  <section id="beneficios" class="py-20 px-4 bg-brandNavy/30 border-b border-brandGold/5">
+    <div class="max-w-7xl mx-auto space-y-12">
+      <div class="text-center max-w-3xl mx-auto space-y-4">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Negocio Redondo para la <span class="text-brandGold">Administración Hotelera</span></h2>
+        <p class="text-gray-400">Optimiza los ingresos por metro cuadrado de tus suites sin elevar tus costos fijos ni requerir personal de venta dedicado.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Beneficio 1 -->
+        <div class="bg-brandDark/80 p-8 rounded-2xl border border-gray-800 hover:border-brandGold/30 transition-all duration-300 space-y-4 group">
+          <div class="h-12 w-12 rounded-xl bg-brandGold/10 flex items-center justify-center text-brandGold group-hover:bg-brandGold group-hover:text-brandDark transition-all duration-300">
+            <i class="fa-solid fa-wallet text-xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white">Retorno de Inversión Inmediato</h3>
+          <p class="text-gray-400 text-sm">Con un costo mayorista de $70 MXN y un precio sugerido de venta al huésped de $150 MXN, obtienes un retorno mayor al 100% libre de impuestos en cada compra pasiva.</p>
+        </div>
+        <!-- Beneficio 2 -->
+        <div class="bg-brandDark/80 p-8 rounded-2xl border border-gray-800 hover:border-brandGold/30 transition-all duration-300 space-y-4 group">
+          <div class="h-12 w-12 rounded-xl bg-brandGold/10 flex items-center justify-center text-brandGold group-hover:bg-brandGold group-hover:text-brandDark transition-all duration-300">
+            <i class="fa-solid fa-lock text-xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white">Venta 100% Silenciosa</h3>
+          <p class="text-gray-400 text-sm">El pudor frena la venta de estimulantes. Al colocar nuestros habladores discretos junto al teléfono de la suite, eliminas la fricción y el huésped solicita el producto de manera privada.</p>
+        </div>
+        <!-- Beneficio 3 -->
+        <div class="bg-brandDark/80 p-8 rounded-2xl border border-gray-800 hover:border-brandGold/30 transition-all duration-300 space-y-4 group">
+          <div class="h-12 w-12 rounded-xl bg-brandGold/10 flex items-center justify-center text-brandGold group-hover:bg-brandGold group-hover:text-brandDark transition-all duration-300">
+            <i class="fa-solid fa-boxes-packing text-xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white">Abasto Garantizado</h3>
+          <p class="text-gray-400 text-sm">Olvídate de quiebres de stock en temporadas de alta ocupación (San Valentín, fines de semana, puentes). Suministramos inventario con la velocidad que tu motel exige.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CALCULADORA FINANCIERA INTERACTIVA B2B ================= -->
+  <section id="calculadora" class="py-20 px-4 bg-brandDark border-b border-brandGold/5 relative">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_bottom,#1e1b4b,transparent_70%)] opacity-30"></div>
+    <div class="max-w-5xl mx-auto space-y-12 relative z-10">
+      
+      <div class="text-center max-w-2xl mx-auto space-y-3">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Calculadora de <span class="text-brandGold">Rentabilidad Adicional</span></h2>
+        <p class="text-gray-400">Ajusta los sliders según la operación de tu hotel o motel para proyectar las utilidades netas mensuales.</p>
+      </div>
+
+      <!-- Calculadora Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 bg-brandNavy/60 border border-brandGold/20 rounded-3xl p-6 sm:p-10 shadow-2xl">
+        
+        <!-- Deslizadores -->
+        <div class="lg:col-span-6 space-y-6">
+          <h3 class="text-xl font-bold text-white flex items-center gap-2 border-b border-gray-800 pb-3">
+            <i class="fa-solid fa-sliders text-brandGold"></i> Parámetros de Operación
+          </h3>
+          
+          <!-- Slider Habitaciones -->
+          <div class="space-y-2">
+            <div class="flex justify-between text-sm">
+              <span class="text-gray-300">Habitaciones del Establecimiento:</span>
+              <span class="text-brandGold font-bold" id="lbl-rooms">40</span>
+            </div>
+            <input type="range" id="input-rooms" min="10" max="250" step="5" value="40" class="w-full accent-brandGold cursor-pointer">
+          </div>
+
+          <!-- Slider Ocupación -->
+          <div class="space-y-2">
+            <div class="flex justify-between text-sm">
+              <span class="text-gray-300">Ocupación Mensual Promedio:</span>
+              <span class="text-brandGold font-bold" id="lbl-occupancy">65%</span>
+            </div>
+            <input type="range" id="input-occupancy" min="20" max="100" step="5" value="65" class="w-full accent-brandGold cursor-pointer">
+          </div>
+
+          <!-- Slider Conversión -->
+          <div class="space-y-2">
+            <div class="flex justify-between text-sm">
+              <span class="text-brandGold font-bold" id="lbl-conversion">15%</span>
+            </div>
+            <input type="range" id="input-conversion" min="5" max="50" step="1" value="15" class="w-full accent-brandGold cursor-pointer">
+          </div>
+
+          <!-- Tabla de precios base -->
+          <div class="grid grid-cols-2 gap-4 text-xs bg-brandDark/50 p-4 rounded-xl border border-gray-800">
+            <div>
+              <span class="text-gray-400 block">Costo Distribuidor B2B:</span>
+              <span class="text-white font-bold text-sm">$70.00 MXN</span>
+            </div>
+            <div>
+              <span class="text-gray-400 block">Precio de Venta Sugerido:</span>
+              <span class="text-brandGold font-bold text-sm">$150.00 MXN</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Resultados de Proyección Financiera -->
+        <div class="lg:col-span-6 bg-brandDark/90 rounded-2xl border border-brandGold/10 p-6 flex flex-col justify-between space-y-6">
+          <div class="space-y-4">
+            <h3 class="text-lg font-bold text-white uppercase tracking-wider text-center border-b border-gray-800 pb-2">
+              Utilidades Proyectadas
+            </h3>
+            
+            <div class="space-y-3">
+              <div class="flex justify-between items-center text-sm">
+                <span class="text-gray-400">Sachets consumidos al mes:</span>
+                <span class="text-white font-bold text-lg" id="val-sold">117 unidades</span>
+              </div>
+              <div class="flex justify-between items-center text-sm">
+                <span class="text-gray-400">Margen neto de ganancia (por unidad):</span>
+                <span class="text-emerald-400 font-bold">$80.00 MXN</span>
+              </div>
+              <div class="flex justify-between items-center text-sm border-t border-gray-800 pt-3">
+                <span class="text-gray-300">Ingresos brutos del servibar:</span>
+                <span class="text-white font-bold" id="val-gross">$17,550 MXN</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Destacado de Utilidad Neta Mensual -->
+          <div class="bg-gradient-to-br from-emerald-950/40 to-brandDark border border-emerald-500/30 rounded-xl p-4 text-center">
+            <span class="text-xs text-emerald-400 uppercase tracking-widest font-bold block">Ganancia Neta Extra Mensual</span>
+            <span class="text-3xl sm:text-4xl font-extrabold text-emerald-300 block my-1" id="val-net-monthly">$9,360 MXN</span>
+            <span class="text-xs text-gray-400">Utilidad directa que se añade a tus utilidades líquidas</span>
+          </div>
+
+          <!-- Acumulado Anual -->
+          <div class="text-center text-sm border-t border-gray-800 pt-3">
+            <span class="text-gray-400">Ingreso Extra Anual Proyectado: </span>
+            <span class="text-brandGold font-bold text-lg" id="val-net-yearly">$112,320 MXN</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= NUEVA SECCIÓN DE LOGÍSTICA, ABASTO Y ENVÍOS EXPRESS ================= -->
+  <section id="logistica" class="py-20 px-4 bg-brandNavy/20 border-b border-brandGold/5">
+    <div class="max-w-7xl mx-auto space-y-12">
+      <div class="text-center max-w-3xl mx-auto space-y-4">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Logística de Alta Velocidad y <span class="text-brandGold">Resurtido</span></h2>
+        <p class="text-gray-400">Sabemos que un motel sin stock es dinero perdido. Contamos con una red logística integrada para surtir tu pedido en tiempo récord por el canal de tu preferencia.</p>
+      </div>
+
+      <!-- Grid de Canales Logísticos de Abasto -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Canal 1: Entrega Express CDMX (IMG-17 -> image_17.png) -->
+        <div class="bg-brandDark/80 rounded-2xl border border-gray-800 p-5 flex flex-col justify-between hover:border-brandGold/30 transition-all duration-300 group">
+          <div class="space-y-4">
+            <div class="relative rounded-xl overflow-hidden bg-brandNavy h-52 flex items-center justify-center">
+              <img id="log-img-cdmx" src="image_17.png" alt="Servicio a Domicilio CDMX" class="w-full h-full object-contain transform group-hover:scale-102 transition-transform duration-500" onerror="handleImageError(this, 'IMG-17')">
+              <span class="absolute top-3 left-3 bg-red-600 text-white font-bold text-[10px] uppercase tracking-wider px-2 py-1 rounded-full"><i class="fa-solid fa-bolt"></i> CDMX Express</span>
+            </div>
+            <div class="space-y-2">
+              <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                <i class="fa-solid fa-motorcycle text-brandGold"></i> Envíos en Menos de 2 Horas
+              </h3>
+              <p class="text-gray-400 text-xs leading-relaxed">
+                ¿Te quedaste sin stock un viernes por la noche? Surtimos de inmediato en CDMX y Zona Metropolitana con reparto motorizado express. Entrega directa en la administración del hotel.
+              </p>
+            </div>
+          </div>
+          <a href="#contacto" class="mt-6 w-full text-center bg-brandNavy hover:bg-brandNavy/80 border border-brandGold/20 text-brandGold font-bold py-2.5 rounded-xl text-xs transition duration-200">
+            Solicitar Entrega en CDMX
+          </a>
+        </div>
+
+        <!-- Canal 2: Envíos Nacionales FedEx (IMG-20 -> image_20.png) -->
+        <div class="bg-brandDark/80 rounded-2xl border border-gray-800 p-5 flex flex-col justify-between hover:border-brandGold/30 transition-all duration-300 group">
+          <div class="space-y-4">
+            <div class="relative rounded-xl overflow-hidden bg-brandNavy h-52 flex items-center justify-center">
+              <img id="log-img-fedex" src="image_20.png" alt="Envios FedEx DragonPills" class="w-full h-full object-contain transform group-hover:scale-102 transition-transform duration-500" onerror="handleImageError(this, 'IMG-20')">
+              <span class="absolute top-3 left-3 bg-blue-600 text-white font-bold text-[10px] uppercase tracking-wider px-2 py-1 rounded-full"><i class="fa-solid fa-plane"></i> Todo México</span>
+            </div>
+            <div class="space-y-2">
+              <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                <i class="fa-solid fa-truck-ramp-box text-brandGold"></i> Distribución FedEx Asegurada
+              </h3>
+              <p class="text-gray-400 text-xs leading-relaxed">
+                Enviamos stock consolidado de DragonPills a cualquier estado de la República Mexicana. Tu paquete viaja asegurado con guía de rastreo y tiempos preferenciales de entrega B2B de 24 a 48 horas.
+              </p>
+            </div>
+          </div>
+          <a href="#contacto" class="mt-6 w-full text-center bg-brandNavy hover:bg-brandNavy/80 border border-brandGold/20 text-brandGold font-bold py-2.5 rounded-xl text-xs transition duration-200">
+            Cotizar Envío Nacional
+          </a>
+        </div>
+
+        <!-- Canal 3: Tienda Física / Cash & Carry (IMG-16 -> image_16.png) -->
+        <div class="bg-brandDark/80 rounded-2xl border border-gray-800 p-5 flex flex-col justify-between hover:border-brandGold/30 transition-all duration-300 group">
+          <div class="space-y-4">
+            <div class="relative rounded-xl overflow-hidden bg-brandNavy h-52 flex items-center justify-center">
+              <img id="log-img-chabacano" src="image_16.png" alt="Tienda Física Chabacano" class="w-full h-full object-contain transform group-hover:scale-102 transition-transform duration-500" onerror="handleImageError(this, 'IMG-16')">
+              <span class="absolute top-3 left-3 bg-brandGold text-brandDark font-bold text-[10px] uppercase tracking-wider px-2 py-1 rounded-full"><i class="fa-solid fa-store"></i> Cash & Carry</span>
+            </div>
+            <div class="space-y-2">
+              <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                <i class="fa-solid fa-location-dot text-brandGold"></i> Retira Cerca de Metro Chabacano
+              </h3>
+              <p class="text-gray-400 text-xs leading-relaxed">
+                Si prefieres un abasto inmediato sin costo de flete, puedes retirar tu mercancía directo en nuestra tienda física en la CDMX. Ubicación estratégica para compras de mostrador inmediatas.
+              </p>
+            </div>
+          </div>
+          <button onclick="openLightbox('IMG-16')" class="mt-6 w-full text-center bg-brandNavy hover:bg-brandNavy/80 border border-brandGold/20 text-brandGold font-bold py-2.5 rounded-xl text-xs transition duration-200">
+            Ver Ubicación de la Tienda
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Canales Adicionales de Credibilidad (Naturistas, Hoteles, Farmacias) -->
+      <div class="bg-brandDark/50 border border-gray-800 rounded-2xl p-6">
+        <h3 class="text-sm font-bold text-brandGold uppercase tracking-wider text-center mb-6">Presencia de la marca en Canales de Confianza y Suministro Oficial</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          <!-- IMG-19 -> image_19.png -->
+          <div class="bg-brandNavy/30 rounded-xl p-4 flex items-center gap-4 border border-gray-800 hover:border-brandGold/10 transition-all duration-200">
+            <img id="chan-naturista" src="image_19.png" alt="Tienda Naturista" class="h-12 w-12 object-contain" onerror="handleImageError(this, 'IMG-19')">
+            <div>
+              <h4 class="text-white font-bold text-xs">Tiendas Naturistas</h4>
+              <p class="text-[10px] text-gray-400">Fórmula de herbolaria natural</p>
+            </div>
+          </div>
+          <!-- IMG-21 -> image_21.png -->
+          <div class="bg-brandNavy/30 rounded-xl p-4 flex items-center gap-4 border border-gray-800 hover:border-brandGold/10 transition-all duration-200">
+            <img id="chan-hoteles" src="image_21.png" alt="Canal Hoteles" class="h-12 w-12 object-contain" onerror="handleImageError(this, 'IMG-21')">
+            <div>
+              <h4 class="text-white font-bold text-xs">Hoteles & Moteles</h4>
+              <p class="text-[10px] text-gray-400">Venta pasiva en suites</p>
+            </div>
+          </div>
+          <!-- IMG-22 -> image_22.png -->
+          <div class="bg-brandNavy/30 rounded-xl p-4 flex items-center gap-4 border border-gray-800 hover:border-brandGold/10 transition-all duration-200">
+            <img id="chan-farmacia" src="image_22.png" alt="Canal Farmacia" class="h-12 w-12 object-contain" onerror="handleImageError(this, 'IMG-22')">
+            <div>
+              <h4 class="text-white font-bold text-xs">Farmacias Aliadas</h4>
+              <p class="text-[10px] text-gray-400">Respaldo formal y comercial</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= GALERÍA DE SOCIAL PROOF (LIFESTYLE) ================= -->
+  <section id="galeria" class="py-20 px-4 bg-brandDark border-b border-brandGold/5">
+    <div class="max-w-7xl mx-auto space-y-12">
+      <div class="text-center max-w-3xl mx-auto space-y-4">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Una Marca en la Mente del <span class="text-brandGold">Huésped Moderno</span></h2>
+        <p class="text-gray-400">
+          DragonPills no es un medicamento aburrido; es un ícono de estilo de vida, placer, diversión nocturna y complicidad que tus clientes jóvenes consumen activamente en fiestas, festivales y suites boutique.
+        </p>
+      </div>
+
+      <!-- Cuadrícula Grid de Fotos Reales -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        
+        <!-- Foto 1 (Jacuzzi - IMG-12 -> image_12.png) DESTACADA -->
+        <div class="col-span-1 sm:col-span-2 md:col-span-2 bg-brandDark/60 rounded-2xl border border-gray-800 p-3 overflow-hidden hover:border-brandGold/40 transition-all duration-300 group cursor-pointer" onclick="openLightbox('IMG-12')">
+          <div class="relative overflow-hidden rounded-xl h-64 sm:h-80">
+            <img id="gallery-img-12" src="image_12.png" alt="Jacuzzi Intimidad DragonPills" class="w-full h-full object-cover transform group-hover:scale-105 transition-all duration-500" onerror="handleImageError(this, 'IMG-12')">
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-95"></div>
+            <div class="absolute bottom-4 left-4 right-4">
+              <span class="text-brandGold text-xs font-bold uppercase tracking-widest"><i class="fa-solid fa-fire text-orange-500"></i> Romance y Lujo</span>
+              <p class="text-white font-bold text-lg mt-1">El estimulante ideal para jacuzzis, suites temáticas y escapadas íntimas</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Foto 2 (Club Boys - IMG-09 -> image_9.png) -->
+        <div class="bg-brandDark/60 rounded-2xl border border-gray-800 p-3 overflow-hidden hover:border-brandGold/40 transition-all duration-300 group cursor-pointer" onclick="openLightbox('IMG-09')">
+          <div class="relative overflow-hidden rounded-xl h-64">
+            <img id="gallery-img-09" src="image_9.png" alt="Social Proof Club" class="w-full h-full object-cover transform group-hover:scale-105 transition-all duration-500" onerror="handleImageError(this, 'IMG-09')">
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-95"></div>
+            <div class="absolute bottom-4 left-4">
+              <span class="text-brandGold text-xs font-bold uppercase tracking-widest">Vida Nocturna</span>
+              <p class="text-white font-semibold text-sm mt-1">Presencia estelar en los mejores clubes nocturnos</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Foto 3 (Couple Red - IMG-10 -> image_10.png) -->
+        <div class="bg-brandDark/60 rounded-2xl border border-gray-800 p-3 overflow-hidden hover:border-brandGold/40 transition-all duration-300 group cursor-pointer" onclick="openLightbox('IMG-10')">
+          <div class="relative overflow-hidden rounded-xl h-64">
+            <img id="gallery-img-10" src="image_10.png" alt="Social Proof Pareja" class="w-full h-full object-cover transform group-hover:scale-105 transition-all duration-500" onerror="handleImageError(this, 'IMG-10')">
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-95"></div>
+            <div class="absolute bottom-4 left-4">
+              <span class="text-brandGold text-xs font-bold uppercase tracking-widest">Atracción Coqueta</span>
+              <p class="text-white font-semibold text-sm mt-1">Preferida por parejas dinámicas</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Foto 4 (Pool Party - IMG-13 -> image_13.png) -->
+        <div class="bg-brandDark/60 rounded-2xl border border-gray-800 p-3 overflow-hidden hover:border-brandGold/40 transition-all duration-300 group cursor-pointer" onclick="openLightbox('IMG-13')">
+          <div class="relative overflow-hidden rounded-xl h-64">
+            <img id="gallery-img-13" src="image_13.png" alt="Pool Party" class="w-full h-full object-cover transform group-hover:scale-105 transition-all duration-500" onerror="handleImageError(this, 'IMG-13')">
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-95"></div>
+            <div class="absolute bottom-4 left-4">
+              <span class="text-brandGold text-xs font-bold uppercase tracking-widest">Pool Parties</span>
+              <p class="text-white font-semibold text-sm mt-1">Energía inagotable para festivales de verano</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Foto 5 (Drinks Club - IMG-14 -> image_14.png) -->
+        <div class="bg-brandDark/60 rounded-2xl border border-gray-800 p-3 overflow-hidden hover:border-brandGold/40 transition-all duration-300 group cursor-pointer" onclick="openLightbox('IMG-14')">
+          <div class="relative overflow-hidden rounded-xl h-64">
+            <img id="gallery-img-14" src="image_14.png" alt="Copas y Fiesta" class="w-full h-full object-cover transform group-hover:scale-105 transition-all duration-500" onerror="handleImageError(this, 'IMG-14')">
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-95"></div>
+            <div class="absolute bottom-4 left-4">
+              <span class="text-brandGold text-xs font-bold uppercase tracking-widest">Compatibilidad</span>
+              <p class="text-white font-semibold text-sm mt-1">Fórmula herbal compatible con copas y bebidas</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Foto 6 (Muscular Solo - IMG-11 -> image_11.png) -->
+        <div class="bg-brandDark/60 rounded-2xl border border-gray-800 p-3 overflow-hidden hover:border-brandGold/40 transition-all duration-300 group cursor-pointer" onclick="openLightbox('IMG-11')">
+          <div class="relative overflow-hidden rounded-xl h-64">
+            <img id="gallery-img-11" src="image_11.png" alt="Confianza Total" class="w-full h-full object-cover transform group-hover:scale-105 transition-all duration-500" onerror="handleImageError(this, 'IMG-11')">
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-95"></div>
+            <div class="absolute bottom-4 left-4">
+              <span class="text-brandGold text-xs font-bold uppercase tracking-widest">Seguridad</span>
+              <p class="text-white font-semibold text-sm mt-1">Máxima vitalidad y rendimiento garantizado</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Foto 7 (Yellow top - IMG-15 -> image_15.png) -->
+        <div class="bg-brandDark/60 rounded-2xl border border-gray-800 p-3 overflow-hidden hover:border-brandGold/40 transition-all duration-300 group cursor-pointer" onclick="openLightbox('IMG-15')">
+          <div class="relative overflow-hidden rounded-xl h-64">
+            <img id="gallery-img-15" src="image_15.png" alt="Felicidad Masculina" class="w-full h-full object-cover transform group-hover:scale-105 transition-all duration-500" onerror="handleImageError(this, 'IMG-15')">
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-95"></div>
+            <div class="absolute bottom-4 left-4">
+              <span class="text-brandGold text-xs font-bold uppercase tracking-widest">Complicidad</span>
+              <p class="text-white font-semibold text-sm mt-1">Suplemento elegido por huéspedes exigentes</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SECCIÓN DE MATERIAL POP GRATUITO ================= -->
+  <section id="material" class="py-20 px-4 bg-brandDark border-b border-brandGold/5">
+    <div class="max-w-7xl mx-auto space-y-12">
+      <div class="text-center max-w-2xl mx-auto space-y-4">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Nosotros te regalamos las <span class="text-brandGold">Herramientas de Venta</span></h2>
+        <p class="text-gray-400">Olvídate de folletos feos o diseños improvisados. Te suministramos material promocional impecable, elegante e interactivo de forma gratuita en tu primer pedido de stock.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+        
+        <!-- Opción A: Póster de Recepción (IMG-03 -> image.png) -->
+        <div class="bg-brandNavy/40 border border-brandGold/10 p-6 rounded-2xl flex flex-col items-center justify-between space-y-6 hover:border-brandGold/30 transition-all duration-300 group">
+          <div class="text-center">
+            <span class="text-xs text-brandGold font-bold uppercase tracking-wider bg-brandGold/10 border border-brandGold/30 px-3 py-1 rounded-full">Canal Recepción o Muro</span>
+            <h3 class="text-xl font-bold text-white mt-3">Poster de Habitación "Pídela en Recepción"</h3>
+            <p class="text-gray-400 text-xs mt-1">Establece el precio sugerido de $150 MXN y promueve ventas directas en caja o mostrador.</p>
+          </div>
+          <div class="relative w-full max-w-xs h-96 overflow-hidden rounded-xl border border-white/10 shadow-lg bg-brandDark flex items-center justify-center">
+            <img id="img-poster" src="image.png" alt="Poster Recepción DragonPills" class="w-full h-full object-contain transform group-hover:scale-102 transition-all duration-500" onerror="handleImageError(this, 'IMG-03')">
+          </div>
+          <button onclick="openLightbox('IMG-03')" class="w-full bg-brandDark hover:bg-brandDark/80 text-brandGold font-bold py-2 px-4 rounded-xl border border-brandGold/20 text-xs flex items-center justify-center gap-2 transition duration-200">
+            <i class="fa-solid fa-expand"></i> Ampliar Material Promocional
+          </button>
+        </div>
+
+        <!-- Opción B: Hablador Room Service (IMG-04 -> image_2.png) -->
+        <div class="bg-brandNavy/40 border border-brandGold/10 p-6 rounded-2xl flex flex-col items-center justify-between space-y-6 hover:border-brandGold/30 transition-all duration-300 group">
+          <div class="text-center">
+            <span class="text-xs text-brandGold font-bold uppercase tracking-wider bg-brandGold/10 border border-brandGold/30 px-3 py-1 rounded-full">Canal Habitación / Suite</span>
+            <h3 class="text-xl font-bold text-white mt-3">Hablador Caballete "Room Service"</h3>
+            <p class="text-gray-400 text-xs mt-1">Discreción extrema: colócalo junto al teléfono para solicitudes directas al cuarto.</p>
+          </div>
+          <div class="relative w-full max-w-xs h-96 overflow-hidden rounded-xl border border-white/10 shadow-lg bg-brandDark flex items-center justify-center">
+            <img id="img-table-tent" src="image_2.png" alt="Hablador Room Service DragonPills" class="w-full h-full object-contain transform group-hover:scale-102 transition-all duration-500" onerror="handleImageError(this, 'IMG-04')">
+          </div>
+          <button onclick="openLightbox('IMG-04')" class="w-full bg-brandDark hover:bg-brandDark/80 text-brandGold font-bold py-2 px-4 rounded-xl border border-brandGold/20 text-xs flex items-center justify-center gap-2 transition duration-200">
+            <i class="fa-solid fa-expand"></i> Ampliar Material Promocional
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SECCIÓN DE REGISTROS Y CERTIFICACIONES SANITARIAS ================= -->
+  <section id="confianza" class="py-20 px-4 bg-brandNavy/30 border-b border-brandGold/5 relative">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      
+      <!-- Ficha Técnica Infografía (IMG-06 -> image_3.png) -->
+      <div class="lg:col-span-5 relative group cursor-pointer" onclick="openLightbox('IMG-06')">
+        <div class="absolute inset-0 bg-brandGold/10 blur-2xl rounded-full"></div>
+        <div class="relative bg-brandDark border border-brandGold/20 p-2 rounded-2xl shadow-2xl">
+          <img id="img-guide" src="image_3.png" alt="DragonPills Guía Completa" class="w-full h-auto rounded-xl object-cover" onerror="handleImageError(this, 'IMG-06')">
+          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-xl">
+            <span class="bg-brandGold text-brandDark px-4 py-2 rounded-lg font-bold text-sm shadow-xl flex items-center gap-2">
+              <i class="fa-solid fa-magnifying-glass-plus"></i> Ver Ingredientes y Certificados
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Textos Científicos y de Confianza -->
+      <div class="lg:col-span-7 space-y-6">
+        <span class="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-bold px-3 py-1.5 rounded-full tracking-wider uppercase">
+          <i class="fa-solid fa-shield-halved"></i> 100% Conforme a la Ley Mexicana
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Fórmula de Grado Comercial: <span class="text-brandGold">Cumplimiento COFEPRIS</span></h2>
+        <p class="text-gray-300 leading-relaxed text-sm sm:text-base">
+          Como administrador, la seguridad de tus huéspedes es primordial. DragonPills es un suplemento alimenticio herbolario formulado bajo estrictos estándares. Cuenta con registro, lote e instrucciones nítidas de consumo para evitar cualquier complicación legal.
+        </p>
+
+        <!-- Bloque de Registro Sanitarios COFEPRIS -->
+        <div class="bg-brandDark/80 p-5 rounded-xl border border-brandGold/10 space-y-2">
+          <p class="text-xs text-brandGold font-bold uppercase tracking-widest">NÚMERO DE REGISTRO FEDERAL SANITARIO</p>
+          <p class="text-xl font-mono text-white font-bold tracking-wider">COFEPRIS REG. 183300102A2687</p>
+          <p class="text-xs text-gray-400">Formulado con extractos naturales importados: Ginseng, Wolfberry Chino, Cordyceps Sinensis y Esponja de Malta. Cero dolor de cabeza y 100% compatible con bebidas alcohólicas.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="flex items-start gap-3">
+            <span class="text-brandGold text-lg mt-0.5"><i class="fa-solid fa-leaf"></i></span>
+            <div>
+              <h4 class="text-white font-bold text-sm">Fórmula 100% Natural</h4>
+              <p class="text-gray-400 text-xs">Sin activos farmacológicos sintéticos ni efectos adversos agresivos.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-brandGold text-lg mt-0.5"><i class="fa-solid fa-barcode"></i></span>
+            <div>
+              <h4 class="text-white font-bold text-sm">Empaque Sello y Trazabilidad</h4>
+              <p class="text-gray-400 text-xs">Cada pieza incluye sello holográfico de autenticidad, código de lote y fecha de caducidad nítida.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-4 pt-4">
+          <!-- Botón de Garantía (IMG-05 -> image_7.png) -->
+          <button onclick="openLightbox('IMG-05')" class="bg-brandDark hover:bg-brandDark/80 text-white font-bold py-3 px-6 rounded-xl border border-brandGold/20 flex items-center gap-2 text-xs transition duration-200">
+            <i class="fa-regular fa-star text-brandGold"></i>
+            <span>Ver Garantías y Preferencia Hotelera</span>
+          </button>
+          <!-- Botón de Inspeccionar individual (IMG-18 -> image_18.png) -->
+          <button onclick="openLightbox('IMG-18')" class="bg-brandDark hover:bg-brandDark/80 text-white font-bold py-3 px-6 rounded-xl border border-brandGold/20 flex items-center gap-2 text-xs transition duration-200">
+            <i class="fa-solid fa-eye text-brandGold"></i>
+            <span>Inspeccionar Empaque Individual (Fondo Blanco)</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= CIERRE DE EMBUDO: FORMULARIO B2B Y WHATSAPP ================= -->
+  <section id="contacto" class="py-20 px-4 bg-luxury-gradient relative overflow-hidden">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,#2563eb,transparent_80%)] opacity-20"></div>
+    <div class="max-w-6xl mx-auto space-y-12 relative z-10">
+      
+      <div class="text-center max-w-2xl mx-auto space-y-4">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Asegura tu <span class="text-brandGold">Kit de Demostración Gratis</span></h2>
+        <p class="text-gray-400">Prueba el volumen de ventas e interés de los huéspedes en un grupo piloto de tus habitaciones favoritas. Te equipamos sin costo inicial de inversión.</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Infografía de Proceso (IMG-08 -> image_8.png) -->
+        <div class="lg:col-span-6 relative">
+          <div class="bg-brandNavy/30 border border-white/10 p-2 rounded-2xl shadow-xl">
+            <img id="img-kit" src="image_8.png" alt="Pasos Surtido Kit de Prueba" class="w-full h-auto rounded-xl" onerror="handleImageError(this, 'IMG-08')">
+          </div>
+        </div>
+
+        <!-- Formulario Interactivo para Envío B2B -->
+        <div class="lg:col-span-6 bg-brandDark/90 border border-brandGold/20 p-8 rounded-3xl space-y-6 shadow-2xl">
+          <h3 class="text-xl font-bold text-white flex items-center gap-2">
+            <i class="fa-brands fa-whatsapp text-emerald-400"></i> Solicitar Stock Piloto Sin Costo
+          </h3>
+          <p class="text-gray-400 text-xs">Completa los datos de tu establecimiento para estructurar el mensaje oficial de solicitud de mayoristas y enviarlo directo al canal de atención vía WhatsApp.</p>
+
+          <form id="contact-form" class="space-y-4" onsubmit="sendWhatsApp(event)">
+            <div>
+              <label class="block text-[10px] text-gray-400 uppercase tracking-widest font-bold mb-1">Nombre Completo del Contacto Administrativo</label>
+              <input type="text" id="form-name" required placeholder="Ej. Lic. Rodolfo Sánchez" class="w-full bg-brandNavy/80 border border-gray-800 focus:border-brandGold rounded-xl py-3 px-4 text-white text-sm outline-none transition duration-200">
+            </div>
+
+            <div>
+              <label class="block text-[10px] text-gray-400 uppercase tracking-widest font-bold mb-1">Nombre Comercial del Hotel o Motel</label>
+              <input type="text" id="form-hotel" required placeholder="Ej. Hotel El Secreto Boutique" class="w-full bg-brandNavy/80 border border-gray-800 focus:border-brandGold rounded-xl py-3 px-4 text-white text-sm outline-none transition duration-200">
+            </div>
+
+            <div class="grid grid-cols-2 gap-4">
+              <div>
+                <label class="block text-[10px] text-gray-400 uppercase tracking-widest font-bold mb-1">Habitaciones Activas</label>
+                <input type="number" id="form-rooms" required placeholder="Ej. 45" class="w-full bg-brandNavy/80 border border-gray-800 focus:border-brandGold rounded-xl py-3 px-4 text-white text-sm outline-none transition duration-200">
+              </div>
+              <div>
+                <label class="block text-[10px] text-gray-400 uppercase tracking-widest font-bold mb-1">Ciudad / Estado</label>
+                <input type="text" id="form-city" required placeholder="Ej. Guadalajara, Jal." class="w-full bg-brandNavy/80 border border-gray-800 focus:border-brandGold rounded-xl py-3 px-4 text-white text-sm outline-none transition duration-200">
+              </div>
+            </div>
+
+            <div class="pt-2">
+              <button type="submit" class="w-full bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-teal-600 hover:to-emerald-500 text-white font-extrabold py-3.5 px-6 rounded-xl shadow-xl shadow-emerald-500/15 transition duration-300 flex items-center justify-center gap-2 text-sm tracking-wider uppercase">
+                <i class="fa-brands fa-whatsapp text-lg"></i>
+                <span>Mandar Solicitud de Muestras</span>
+              </button>
+              <p class="text-center text-[11px] text-gray-500 mt-3">Soporte directo de mayoristas CDMX y nacional: 55 35 69 99 01 / 55 2191 2094</p>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PIE DE PÁGINA B2B ================= -->
+  <footer class="bg-brandDark border-t border-brandGold/10 py-12 px-4 text-sm text-gray-500">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+      
+      <!-- Bloque Logo (IMG-07 -> image_4.png) -->
+      <div class="space-y-4">
+        <div class="flex items-center gap-3">
+          <img src="image_4.png" alt="DragonPills" class="h-8 w-auto object-contain" onerror="this.src='https://placehold.co/150x50/0f1e36/ffffff?text=DRAGON+PILLS'">
+        </div>
+        <p class="text-xs leading-relaxed text-gray-400">
+          Suplemento herbolario premium de grado comercial formulado específicamente para el canal de amenities y servibar hotelero. Suministro ágil garantizado.
+        </p>
+      </div>
+
+      <!-- Enlaces de Navegación -->
+      <div>
+        <h4 class="text-white font-bold text-xs uppercase tracking-wider mb-4">Suministro & Negocio</h4>
+        <ul class="space-y-2 text-xs">
+          <li><a href="#beneficios" class="hover:text-brandGold transition duration-200">Beneficios B2B</a></li>
+          <li><a href="#calculadora" class="hover:text-brandGold transition duration-200">Simulador de ROI</a></li>
+          <li><a href="#logistica" class="hover:text-brandGold transition duration-200">Red Logística & Envío</a></li>
+          <li><a href="#material" class="hover:text-brandGold transition duration-200">Material POP de Habitación</a></li>
+        </ul>
+      </div>
+
+      <!-- Regulaciones -->
+      <div>
+        <h4 class="text-white font-bold text-xs uppercase tracking-wider mb-4">Cumplimiento Legal</h4>
+        <ul class="space-y-2 text-xs text-gray-400">
+          <li>Registro COFEPRIS No. 183300102A2687</li>
+          <li>Fórmula 100% Herbal y Orgánica</li>
+          <li>Sello holográfico de autenticidad</li>
+          <li>Trazabilidad por código de lote</li>
+        </ul>
+      </div>
+
+      <!-- Contacto de Distribución -->
+      <div>
+        <h4 class="text-white font-bold text-xs uppercase tracking-wider mb-4">Contacto de Distribución</h4>
+        <p class="text-xs text-gray-400">
+          Correo Electrónico Oficial:<br>
+          <a href="mailto:info@pastillasdragonpills.com" class="text-brandGold hover:underline">info@pastillasdragonpills.com</a>
+        </p>
+        <p class="text-xs text-gray-400 mt-2">
+          Teléfonos de atención B2B CDMX:<br>
+          <span class="text-white">55 35 69 99 01 & 55 2191 2094</span>
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Barra Legal de Cumplimiento -->
+    <div class="max-w-7xl mx-auto border-t border-gray-800 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center text-xs space-y-4 sm:space-y-0 text-center sm:text-left">
+      <p>&copy; 2026 DragonPills Internacional S.A. de C.V. Todos los derechos reservados. Suplemento alimenticio. Consumo responsabilidad de quien lo usa y lo recomienda.</p>
+      <div class="flex gap-4">
+        <a href="#" class="hover:text-brandGold transition duration-200">Términos Comerciales</a>
+        <a href="#" class="hover:text-brandGold transition duration-200">Aviso de Privacidad</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= MODAL LIGHTBOX INTERACTIVO (LIGHTBOX) ================= -->
+  <div id="lightbox" class="fixed inset-0 z-50 bg-black/95 hidden items-center justify-center p-4" onclick="closeLightbox()">
+    <button class="absolute top-4 right-4 text-white hover:text-brandGold text-3xl font-extrabold focus:outline-none">&times;</button>
+    <div class="max-w-4xl max-h-full flex flex-col items-center gap-4" onclick="event.stopPropagation()">
+      <img id="lightbox-img" src="" alt="Ampliado" class="max-w-full max-h-[80vh] rounded-xl object-contain border border-brandGold/30 shadow-2xl">
+      <div class="text-center bg-brandNavy/90 border border-brandGold/10 p-4 rounded-xl max-w-xl w-full">
+        <h4 id="lightbox-title" class="text-brandGold font-bold text-lg">Título</h4>
+        <p id="lightbox-desc" class="text-gray-300 text-xs mt-1">Descripción corta.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= LÓGICA DE PROGRAMACIÓN E INTERACTIVIDAD ================= -->
+  <script>
+    // Inventario de Datos de Imágenes para Modal, lightbox y fallbacks
+    const imageCatalog = {
+      'IMG-01': {
+        title: 'Fuego & Hielo: Dualidad de Sensaciones',
+        desc: 'El sachet original envuelto en un torbellino donde la pasión ardiente del fuego se cruza con la duración y firmeza controlada del hielo glacial.',
+        src: 'image_5.png'
+      },
+      'IMG-02': {
+        title: 'Funda Protectora Individual',
+        desc: 'Presentación nítida del sachet de DragonPills con corte curvo ergonómico de grado premium para exhibición en hoteles de lujo.',
+        src: 'image_6.png'
+      },
+      'IMG-03': {
+        title: 'Póster POP - "Pídela en Recepción"',
+        desc: 'Material impreso oficial con el precio de venta sugerido de $150 MXN, ideal para cocheras de moteles o mostradores de recepción.',
+        src: 'image.png'
+      },
+      'IMG-04': {
+        title: 'Hablador Caballete para Room Service',
+        desc: 'Diseño para mesa de noche. Explica de forma discreta los beneficios de duración y rendimiento para que el huésped marque a recepción desde su habitación.',
+        src: 'image_2.png'
+      },
+      'IMG-05': {
+        title: 'Garantía de Satisfacción y Opinión de Clientes',
+        desc: 'Banner que recopila la tasa de recompra del 90% por parte de los huéspedes y certifica la ausencia de dolores de cabeza o efectos secundarios.',
+        src: 'image_7.png'
+      },
+      'IMG-06': {
+        title: 'Ficha Científica e Ingredientes Naturales',
+        desc: 'Folleto nítido con el Registro Sanitario COFEPRIS 183300102A2687 y la lista de extractos herbales refinados para la vitalidad.',
+        src: 'image_3.png'
+      },
+      'IMG-08': {
+        title: 'Solicitud del Kit de Demostración en 3 Pasos',
+        desc: 'Infografía que detalla el camino de abasto inicial gratuito: solicitud de stock, colocación del material POP y retorno puro del 100%.',
+        src: 'image_8.png'
+      },
+      'IMG-09': {
+        title: 'Estilo de Vida: Preferida en Clubes Nocturnos',
+        desc: 'Jóvenes atléticos y dinámicos prefieren la seguridad de contar con DragonPills durante sus salidas nocturnas y fines de semana.',
+        src: 'image_9.png'
+      },
+      'IMG-10': {
+        title: 'Estilo de Vida: Citas y Encuentros',
+        desc: 'La elegancia y picardía se complementan perfectamente con DragonPills para eliminar la fatiga y encender la química física.',
+        src: 'image_10.png'
+      },
+      'IMG-11': {
+        title: 'Estilo de Vida: Energía de Nivel Premium',
+        desc: 'DragonPills representa un estilo de vida proactivo, libre de tabúes y enfocado en maximizar el disfrute interpersonal.',
+        src: 'image_11.png'
+      },
+      'IMG-12': {
+        title: 'Estilo de Vida: Suites, Albercas y Jacuzzis de Lujo',
+        desc: 'Ambiente íntimo de jacuzzi que representa el nicho ideal del producto: love hotels y suites temáticas donde se disparan las ventas por impulso.',
+        src: 'image_12.png'
+      },
+      'IMG-13': {
+        title: 'Estilo de Vida: Pool Parties de Fin de Semana',
+        desc: 'El calor y la diversión de eventos diurnos se benefician de la vitalidad sostenida que aporta la herbolaria china de DragonPills.',
+        src: 'image_13.png'
+      },
+      'IMG-14': {
+        title: 'Estilo de Vida: Diversión Segura y con Confianza',
+        desc: 'DragonPills es completamente compatible con cócteles y bebidas alcohólicas, haciéndolo ideal para la vida de club y hotelería.',
+        src: 'image_14.png'
+      },
+      'IMG-15': {
+        title: 'Estilo de Vida: Placer sin Excepciones',
+        desc: 'Consumidores de target moderno eligen la efectividad natural que no requiere receta médica.',
+        src: 'image_15.png'
+      },
+      'IMG-16': {
+        title: 'Abasto: Tienda Física Oficial Metro Chabacano',
+        desc: 'Ubicación física e instalaciones oficiales de DragonPills en la CDMX para retiros de stock inmediatos sin costos de paquetería.',
+        src: 'image_16.png'
+      },
+      'IMG-17': {
+        title: 'Reparto Express en CDMX (Menos de 2 Horas)',
+        desc: 'Servicio de entrega a domicilio para hoteles en CDMX. Surtido en motocicleta el mismo día para asegurar que no te quedes sin stock en horas pico.',
+        src: 'image_17.png'
+      },
+      'IMG-18': {
+        title: 'Packshot Premium DragonPills',
+        desc: 'Vista detallada de alta resolución del empaque original de 700mg sobre fondo blanco limpio con sombras nítidas.',
+        src: 'image_18.png'
+      },
+      'IMG-19': {
+        title: 'Canal de Distribución: Tiendas Naturistas',
+        desc: 'DragonPills es distribuido formalmente en el sector de herbolaria tradicional gracias a sus ingredientes orgánicos.',
+        src: 'image_19.png'
+      },
+      'IMG-20': {
+        title: 'Logística Nacional: Envíos por FedEx',
+        desc: 'Camión de reparto consolidado FedEx transportando pedidos a toda la República Mexicana con guías de rastreo inmediatas.',
+        src: 'image_20.png'
+      },
+      'IMG-21': {
+        title: 'Canal Oficial de Suministro para Hoteles & Moteles',
+        desc: 'Sello oficial de abasto autorizado en el sector de hospedaje mexicano para venta discreta en suite.',
+        src: 'image_21.png'
+      },
+      'IMG-22': {
+        title: 'Canal de Distribución: Farmacias Autorizadas',
+        desc: 'Alineación de marca con el sector farmacéutico e industrial de suplementos alimenticios formales.',
+        src: 'image_22.png'
+      }
+    };
+
+    // Manejador Inteligente para Imprevistos con las Imágenes
+    function handleImageError(imgElement, imgId) {
+      const info = imageCatalog[imgId];
+      if (info) {
+        // En caso de que se intente levantar desde local y falle, se activa un fallback descriptivo
+        const textPlaceholder = encodeURIComponent(info.title);
+        imgElement.src = `https://placehold.co/600x800/0f1e36/d4af37?text=${textPlaceholder}`;
+      }
+    }
+
+    // Lógica Interactiva: Calculadora de Retorno Financiero B2B
+    const inputRooms = document.getElementById('input-rooms');
+    const inputOccupancy = document.getElementById('input-occupancy');
+    const inputConversion = document.getElementById('input-conversion');
+
+    const lblRooms = document.getElementById('lbl-rooms');
+    const lblOccupancy = document.getElementById('lbl-occupancy');
+    const lblConversion = document.getElementById('lbl-conversion');
+
+    const valSold = document.getElementById('val-sold');
+    const valGross = document.getElementById('val-gross');
+    const valNetMonthly = document.getElementById('val-net-monthly');
+    const valNetYearly = document.getElementById('val-net-yearly');
+
+    function calculateFinances() {
+      const rooms = parseInt(inputRooms.value);
+      const occupancy = parseInt(inputOccupancy.value) / 100;
+      const conversion = parseInt(inputConversion.value) / 100;
+
+      // Actualizar sliders visualmente
+      lblRooms.innerText = rooms;
+      lblOccupancy.innerText = `${Math.round(occupancy * 100)}%`;
+      lblConversion.innerText = `${Math.round(conversion * 100)}%`;
+
+      // Simular volumen: Habitaciones ocupadas promedio al mes (30 días)
+      const occupiedNights = rooms * occupancy * 30;
+      
+      // Sachets estimados vendidos
+      const soldUnits = Math.round(occupiedNights * conversion);
+
+      // Parámetros de Costos B2B
+      const wholesaleCost = 70;
+      const guestPrice = 150;
+      const netProfitUnit = guestPrice - wholesaleCost; // $80 pesos de ganancia neta por unidad
+
+      const monthlyGross = soldUnits * guestPrice;
+      const monthlyNet = soldUnits * netProfitUnit;
+      const yearlyNet = monthlyNet * 12;
+
+      // Imprimir resultados en moneda nacional
+      valSold.innerText = `${soldUnits} unidades`;
+      valGross.innerText = `$${monthlyGross.toLocaleString('es-MX')} MXN`;
+      valNetMonthly.innerText = `$${monthlyNet.toLocaleString('es-MX')} MXN`;
+      valNetYearly.innerText = `$${yearlyNet.toLocaleString('es-MX')} MXN`;
+    }
+
+    // Vincular oyentes de eventos financieros
+    inputRooms.addEventListener('input', calculateFinances);
+    inputOccupancy.addEventListener('input', calculateFinances);
+    inputConversion.addEventListener('input', calculateFinances);
+
+    // Calcular por primera vez
+    calculateFinances();
+
+    // Lógica de Modales de Ampliación de Imagen (Lightbox)
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxTitle = document.getElementById('lightbox-title');
+    const lightboxDesc = document.getElementById('lightbox-desc');
+
+    function openLightbox(imgId) {
+      const info = imageCatalog[imgId];
+      if (info) {
+        // Enlaza la imagen directamente cargándola desde el sitema de archivos
+        lightboxImg.src = info.src;
+        lightboxTitle.innerText = info.title;
+        lightboxDesc.innerText = info.desc;
+
+        lightbox.classList.remove('hidden');
+        lightbox.classList.add('flex');
+        document.body.classList.add('overflow-hidden');
+      }
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove('flex');
+      lightbox.classList.add('hidden');
+      document.body.classList.remove('overflow-hidden');
+    }
+
+    // Tecla ESC para cerrar modal
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeLightbox();
+    });
+
+    // Lógica del Generador del Mensaje de WhatsApp
+    function sendWhatsApp(event) {
+      event.preventDefault();
+
+      const adminName = document.getElementById('form-name').value;
+      const hotelName = document.getElementById('form-hotel').value;
+      const roomsCount = document.getElementById('form-rooms').value;
+      const city = document.getElementById('form-city').value;
+
+      // Teléfono comercial principal
+      const whatsappPhone = "525535699901";
+
+      const message = `¡Hola DragonPills! Mi nombre es ${adminName} y soy administrador de ${hotelName}.\n\nContamos con ${roomsCount} habitaciones en la ubicación de ${city} y estamos sumamente interesados en evaluar el volumen de venta pasiva en nuestras suites. Solicitamos el envío de nuestro Kit de Demostración Gratis a nuestro domicilio. Quedo al pendiente para coordinar los datos de entrega.`;
+
+      const encodedMessage = encodeURIComponent(message);
+      const url = `https://wa.me/${whatsappPhone}?text=${encodedMessage}`;
+
+      window.open(url, '_blank');
+    }
+  </script>
+</body>
+</html>
