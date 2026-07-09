@@ -1,4 +1,4 @@
-📸 Banco de Imágenes Oficiales - Landing Page DragonPills (Hoteles y Moteles)Este documento es el inventario centralizado y optimizado de los recursos visuales oficiales para la marca DragonPills.🗺️ Mapa de Distribución y URLs del ServidorIDRecurso / Archivo FísicoSección de la WebEstadoIMG-01image_1.pngHero Section (Banner de Fuego y Hielo)¡Asignada! 🌐IMG-02image_2.pngSección de Producto (Sachet Individual)¡Asignada! 🌐IMG-03image_3.pngMaterial POP (Poster "Pídela en Recepción")¡Asignada! 🌐IMG-04image_4.pngMaterial POP (Hablador "Room Service")¡Asignada! 🌐IMG-05image_5.pngSección de Confianza (Garantías de Clientes)¡Asignada! 🌐IMG-06image_6.pngFicha Técnica (Infografía COFEPRIS / Uso)¡Asignada! 🌐IMG-07image_7.pngBranding (Logotipo Oficial Dragón Azul)¡Asignada! 🌐IMG-08image_8.pngConversión (Pasos Kit de Muestra Gratis)¡Asignada! 🌐IMG-09image_9.pngGalería Lifestyle (Grupo Club Nocturno)¡Asignada! 🌐IMG-10image_10.pngGalería Lifestyle (Pareja Vestido Rojo)¡Asignada! 🌐IMG-11image_11.pngGalería Lifestyle (Hombre Musculoso Solo)¡Asignada! 🌐IMG-12image_12.pngGalería Lifestyle (Escena Íntima Jacuzzi)¡Asignada! 🌐IMG-13image_13.pngGalería Lifestyle (Pool Party Exterior)¡Asignada! 🌐IMG-14image_14.pngGalería Lifestyle (Amigos con Copas)¡Asignada! 🌐IMG-15image_15.pngGalería Lifestyle (Joven Playera Amarilla)¡Asignada! 🌐IMG-16image_16.pngLogística (Tienda Física Metro Chabacano)¡Asignada! 🌐IMG-17image_17.pngLogística (Envío Express Moto 2 Hrs CDMX)¡Asignada! 🌐IMG-18image_18.pngProducto v2 (Packshot con Fondo Blanco)¡Asignada! 🌐IMG-19image_19.pngCanal Autorizado (Tienda Naturista)¡Asignada! 🌐IMG-20image_20.pngLogística Nacional (Camión Paquetería FedEx)¡Asignada! 🌐IMG-21image_21.pngCanal Autorizado (Hoteles & Moteles Sello)¡Asignada! 🌐IMG-22image_22.pngCanal Autorizado (Farmacias Distribución)¡Asignada! 🌐IMG-23WhatsApp Image 2026-06-24 at 10.28.15 PM.jpegContacto / Formulario B2B (Código QR WhatsApp)¡Asignada! 🌐IMG-24Gemini_Generated_Image_ (28).pngCalidad y Laboratorio (Científicos evaluando fórmula)¡NUEVA! ✨IMG-25Gemini_Generated_Image_ (16).pngPrograma de Consignación (Ganancias 100% - $1,000 MXN)¡NUEVA! ✨IMG-26Gemini_Generated_Image_ (41).pngRentabilidad B2B (Gráfico de flecha dorada y monedas)¡NUEVA! ✨IMG-27Gemini_Generated_Image_ (35).pngGarantía de Calidad (Sello Dorado Originalidad y Seguridad)¡NUEVA! ✨IMG-28Gemini_Generated_Image_ (37).pngMarketing Atrevido 1 (Fresa con crema / Sensualidad)¡NUEVA! ✨IMG-29Gemini_Generated_Image_ (38).pngMarketing Atrevido 2 (Un clavo saca otro clavo)¡NUEVA! ✨IMG-30Gemini_Generated_Image_ (39).pngMarketing Atrevido 3 (Diversión que no termina / Carrusel)¡NUEVA! ✨IMG-31Gemini_Generated_Image_ (40).pngMarketing Atrevido 4 (Variante Fresa con crema)¡NUEVA! ✨📂 Descripción de los Nuevos Recursos para la Landing B2BGemini_Generated_Image_ (28).png (Laboratorio): Transmite una enorme confianza y seguridad. Muestra que DragonPills no es un suplemento improvisado, sino que se formula en instalaciones esterilizadas bajo rigor científico. Ideal para derribar objeciones médicas de los hoteleros.Gemini_Generated_Image_ (16).png (Consignación): El gancho definitivo para B2B. Presenta el modelo de 3 pasos ("Validación y Distribuidor Regional") donde el hotelero gana sus primeros $1,000 pesos con 0% de inversión.Gemini_Generated_Image_ (41).png (Gráfico ROI): Una poderosa flecha ascendente dorada rompiendo cristales. Ideal para colocar junto a la Calculadora Financiera, ilustrando el crecimiento explosivo de ingresos pasivos.Gemini_Generated_Image_ (35).png (Sello Dorado): Un sello de garantía de máxima autoridad. Aporta credibilidad absoluta sobre la originalidad del producto para evitar falsificaciones en el canal hotelero.Imágenes Atrevidas (Gemini_Generated_Image_ (37).png al (40).png): Material de marketing promocional que se utilizará en una sección de "Campañas Publicitarias Activas" para mostrar al hotelero que la marca tiene una fuerte presencia de marketing digital que atrae clientes a buscar el producto.
+📸 Banco de Imágenes Oficiales - Landing Page DragonPills (Hoteles y Moteles)Este documento es el inventario centralizado y optimizado de los recursos visuales oficiales para la marca DragonPills.🗺️ Mapa de Distribución y URLs del ServidorIDRecurso / Archivo FísicoSección de la WebEstadoIMG-01image_1.pngHero Section (Banner de Fuego y Hielo)¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-02image_2.pngSección de Producto (Sachet Individual)¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-03image_3.pngMaterial POP (Poster "Pídela en Recepción")¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-04image_4.pngMaterial POP (Hablador "Room Service")¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-05image_5.pngSección de Confianza (Garantías de Clientes)¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-06image_6.pngFicha Técnica (Infografía COFEPRIS / Uso)¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-07image_7.pngBranding (Logotipo Oficial Dragón Azul)¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-08image_8.pngConversión (Pasos Kit de Muestra Gratis)¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-09image_9.pngGalería Lifestyle (Grupo Club Nocturno)¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-10image_10.pngGalería Lifestyle (Pareja Vestido Rojo)¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-11image_11.pngGalería Lifestyle (Hombre Musculoso Solo)¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-12image_12.pngGalería Lifestyle (Escena Íntima Jacuzzi)¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-13image_13.pngGalería Lifestyle (Pool Party Exterior)¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-14image_14.pngGalería Lifestyle (Amigos con Copas)¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-15image_15.pngGalería Lifestyle (Joven Playera Amarilla)¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-16image_16.pngLogística (Tienda Física Metro Chabacano)¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-17image_17.pngLogística (Envío Express Moto 2 Hrs CDMX)¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-18image_18.pngProducto v2 (Packshot con Fondo Blanco)¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-19image_19.pngCanal Autorizado (Tienda Naturista)¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-20image_20.pngLogística Nacional (Camión Paquetería FedEx)¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-21image_21.pngCanal Autorizado (Hoteles & Moteles Sello)¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-22image_22.pngCanal Autorizado (Farmacias Distribución)¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-23WhatsApp Image 2026-06-24 at 10.28.15 PM.jpegContacto / Formulario B2B (Código QR WhatsApp)¡Asignada! 🌐https://dragonpillshoteles.github.io/dragonpills_moteles/IMG-24Gemini_Generated_Image_ (28).pngCalidad y Laboratorio (Científicos evaluando fórmula)¡NUEVA! ✨IMG-25Gemini_Generated_Image_ (16).pngPrograma de Consignación (Ganancias 100% - $1,000 MXN)¡NUEVA! ✨IMG-26Gemini_Generated_Image_ (41).pngRentabilidad B2B (Gráfico de flecha dorada y monedas)¡NUEVA! ✨IMG-27Gemini_Generated_Image_ (35).pngGarantía de Calidad (Sello Dorado Originalidad y Seguridad)¡NUEVA! ✨IMG-28Gemini_Generated_Image_ (37).pngMarketing Atrevido 1 (Fresa con crema / Sensualidad)¡NUEVA! ✨IMG-29Gemini_Generated_Image_ (38).pngMarketing Atrevido 2 (Un clavo saca otro clavo)¡NUEVA! ✨IMG-30Gemini_Generated_Image_ (39).pngMarketing Atrevido 3 (Diversión que no termina / Carrusel)¡NUEVA! ✨IMG-31Gemini_Generated_Image_ (40).pngMarketing Atrevido 4 (Variante Fresa con crema)¡NUEVA! ✨📂 Descripción de los Nuevos Recursos para la Landing B2BGemini_Generated_Image_ (28).png (Laboratorio): Transmite una enorme confianza y seguridad. Muestra que DragonPills no es un suplemento improvisado, sino que se formula en instalaciones esterilizadas bajo rigor científico. Ideal para derribar objeciones médicas de los hoteleros.Gemini_Generated_Image_ (16).png (Consignación): El gancho definitivo para B2B. Presenta el modelo de 3 pasos ("Validación y Distribuidor Regional") donde el hotelero gana sus primeros $1,000 pesos con 0% de inversión.Gemini_Generated_Image_ (41).png (Gráfico ROI): Una poderosa flecha ascendente dorada rompiendo cristales. Ideal para colocar junto a la Calculadora Financiera, ilustrando el crecimiento explosivo de ingresos pasivos.Gemini_Generated_Image_ (35).png (Sello Dorado): Un sello de garantía de máxima autoridad. Aporta credibilidad absoluta sobre la originalidad del producto para evitar falsificaciones en el canal hotelero.Imágenes Atrevidas (Gemini_Generated_Image_ (37).png al (40).png): Material de marketing promocional que se utilizará en una sección de "Campañas Publicitarias Activas" para mostrar al hotelero que la marca tiene una fuerte presencia de marketing digital que atrae clientes a buscar el producto.
 
 
 
@@ -45,7 +45,7 @@
   <nav class="sticky top-0 z-50 bg-brandDark/90 backdrop-blur-md border-b border-brandGold/10 px-4 py-3">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
       <a href="#" class="flex items-center gap-3">
-        <img src="image_7.png" alt="DragonPills Logo" class="h-10 w-auto object-contain border border-brandGold/20 rounded-md p-0.5" onerror="handleImageError(this, 'IMG-07')">
+        <img src="https://dragonpillshoteles.github.io/dragonpills_moteles/image_7.png" alt="DragonPills Logo" class="h-10 w-auto object-contain border border-brandGold/20 rounded-md p-0.5" onerror="handleImageError(this, 'IMG-07')">
         <span class="text-brandGold font-bold text-lg tracking-wider hidden sm:block">HOTEL B2B</span>
       </a>
       <div class="hidden lg:flex items-center gap-6">
@@ -90,7 +90,7 @@
         <div class="absolute inset-0 bg-brandGold/10 blur-3xl rounded-full"></div>
         <div class="relative bg-brandNavy/40 border border-brandGold/20 p-2 rounded-2xl shadow-2xl overflow-hidden group">
           <!-- HERO IMAGE -->
-          <img id="hero-img" src="image_1.png" alt="DragonPills Banner Fuego e Hielo" class="w-full h-auto rounded-xl object-cover" onerror="handleImageError(this, 'IMG-01')">
+          <img id="hero-img" src="https://dragonpillshoteles.github.io/dragonpills_moteles/image_1.png" alt="DragonPills Banner Fuego e Hielo" class="w-full h-auto rounded-xl object-cover" onerror="handleImageError(this, 'IMG-01')">
         </div>
       </div>
     </div>
@@ -103,7 +103,7 @@
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         <!-- Gráfico Visual de Rentabilidad (IMG-26) -->
         <div class="lg:col-span-5 hidden lg:block">
-           <img src="Gemini_Generated_Image_ (41).png" alt="Crecimiento Financiero DragonPills" class="w-full h-auto rounded-2xl shadow-2xl border border-brandGold/20" onerror="handleImageError(this, 'IMG-26')">
+           <img src="https://dragonpillshoteles.github.io/dragonpills_moteles/Gemini_Generated_Image_ (41).png" alt="Crecimiento Financiero DragonPills" class="w-full h-auto rounded-2xl shadow-2xl border border-brandGold/20" onerror="handleImageError(this, 'IMG-26')">
         </div>
 
         <!-- Calculadora Interactiva -->
@@ -198,7 +198,7 @@
       <!-- Imagen Infografía de Consignación (IMG-25) -->
       <div class="relative group cursor-pointer" onclick="openLightbox('IMG-25')">
         <div class="absolute inset-0 bg-brandGold/20 blur-xl rounded-full"></div>
-        <img id="img-consignacion" src="Gemini_Generated_Image_ (16).png" alt="Programa Consignación DragonPills" class="relative w-full h-auto rounded-2xl shadow-2xl border border-brandGold/30 transform group-hover:scale-[1.02] transition-transform duration-500" onerror="handleImageError(this, 'IMG-25')">
+        <img id="img-consignacion" src=https://dragonpillshoteles.github.io/dragonpills_moteles/"Gemini_Generated_Image_ (16).png" alt="Programa Consignación DragonPills" class="relative w-full h-auto rounded-2xl shadow-2xl border border-brandGold/30 transform group-hover:scale-[1.02] transition-transform duration-500" onerror="handleImageError(this, 'IMG-25')">
       </div>
 
     </div>
@@ -210,13 +210,13 @@
       
       <!-- Imagen de Laboratorio (IMG-24) -->
       <div class="lg:col-span-6 relative cursor-pointer" onclick="openLightbox('IMG-24')">
-        <img id="img-laboratorio" src="Gemini_Generated_Image_ (28).png" alt="Laboratorio de Calidad DragonPills" class="w-full h-auto rounded-2xl border border-gray-800 shadow-xl" onerror="handleImageError(this, 'IMG-24')">
+        <img id="img-laboratorio" src="https://dragonpillshoteles.github.io/dragonpills_moteles/Gemini_Generated_Image_ (28).png" alt="Laboratorio de Calidad DragonPills" class="w-full h-auto rounded-2xl border border-gray-800 shadow-xl" onerror="handleImageError(this, 'IMG-24')">
       </div>
 
       <!-- Textos de Calidad Médica y Sello (IMG-27) -->
       <div class="lg:col-span-6 space-y-6">
         <div class="flex items-center gap-4 mb-4">
-          <img src="Gemini_Generated_Image_ (35).png" alt="Sello Garantía" class="w-20 h-20 object-contain drop-shadow-xl pulse-effect rounded-full" onerror="handleImageError(this, 'IMG-27')">
+          <img src="https://dragonpillshoteles.github.io/dragonpills_moteles/Gemini_Generated_Image_ (35).png" alt="Sello Garantía" class="w-20 h-20 object-contain drop-shadow-xl pulse-effect rounded-full" onerror="handleImageError(this, 'IMG-27')">
           <h2 class="text-3xl font-extrabold text-white">Fabricación <span class="text-brandGold">Científica</span> Certificada</h2>
         </div>
         <p class="text-gray-300 text-sm leading-relaxed">
@@ -254,11 +254,11 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
         <div class="bg-brandDark border border-gray-800 p-6 rounded-2xl text-center shadow-lg">
           <span class="text-xs text-brandGold font-bold uppercase bg-brandGold/10 px-3 py-1 rounded-full">Póster Recepción</span>
-          <img src="image_3.png" class="h-64 mx-auto my-4 object-contain" onerror="handleImageError(this, 'IMG-03')">
+          <img src="https://dragonpillshoteles.github.io/dragonpills_moteles/image_3.png" class="h-64 mx-auto my-4 object-contain" onerror="handleImageError(this, 'IMG-03')">
         </div>
         <div class="bg-brandDark border border-gray-800 p-6 rounded-2xl text-center shadow-lg">
           <span class="text-xs text-brandGold font-bold uppercase bg-brandGold/10 px-3 py-1 rounded-full">Hablador Suite</span>
-          <img src="image_4.png" class="h-64 mx-auto my-4 object-contain" onerror="handleImageError(this, 'IMG-04')">
+          <img src="https://dragonpillshoteles.github.io/dragonpills_moteles/image_4.png" class="h-64 mx-auto my-4 object-contain" onerror="handleImageError(this, 'IMG-04')">
         </div>
       </div>
 
@@ -266,10 +266,10 @@
       <div class="border-t border-gray-800 pt-12">
         <h3 class="text-center text-xl font-bold text-white mb-8">Campañas Digitales de Respaldo de Marca</h3>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-          <img src="Gemini_Generated_Image_ (37).png" class="rounded-xl h-64 w-full object-cover cursor-pointer hover:opacity-80 transition" onclick="openLightbox('IMG-28')" onerror="handleImageError(this, 'IMG-28')">
-          <img src="Gemini_Generated_Image_ (38).png" class="rounded-xl h-64 w-full object-cover cursor-pointer hover:opacity-80 transition" onclick="openLightbox('IMG-29')" onerror="handleImageError(this, 'IMG-29')">
-          <img src="Gemini_Generated_Image_ (39).png" class="rounded-xl h-64 w-full object-cover cursor-pointer hover:opacity-80 transition" onclick="openLightbox('IMG-30')" onerror="handleImageError(this, 'IMG-30')">
-          <img src="Gemini_Generated_Image_ (40).png" class="rounded-xl h-64 w-full object-cover cursor-pointer hover:opacity-80 transition" onclick="openLightbox('IMG-31')" onerror="handleImageError(this, 'IMG-31')">
+          <img src="https://dragonpillshoteles.github.io/dragonpills_moteles/Gemini_Generated_Image_ (37).png" class="rounded-xl h-64 w-full object-cover cursor-pointer hover:opacity-80 transition" onclick="openLightbox('IMG-28')" onerror="handleImageError(this, 'IMG-28')">
+          <img src="https://dragonpillshoteles.github.io/dragonpills_moteles/Gemini_Generated_Image_ (38).png" class="rounded-xl h-64 w-full object-cover cursor-pointer hover:opacity-80 transition" onclick="openLightbox('IMG-29')" onerror="handleImageError(this, 'IMG-29')">
+          <img src="https://dragonpillshoteles.github.io/dragonpills_moteles/Gemini_Generated_Image_ (39).png" class="rounded-xl h-64 w-full object-cover cursor-pointer hover:opacity-80 transition" onclick="openLightbox('IMG-30')" onerror="handleImageError(this, 'IMG-30')">
+          <img src="https://dragonpillshoteles.github.io/dragonpills_moteles/Gemini_Generated_Image_ (40).png" class="rounded-xl h-64 w-full object-cover cursor-pointer hover:opacity-80 transition" onclick="openLightbox('IMG-31')" onerror="handleImageError(this, 'IMG-31')">
         </div>
       </div>
     </div>
@@ -285,7 +285,7 @@
         <h3 class="text-2xl font-bold text-white mb-2">Escaneo Directo</h3>
         <p class="text-gray-400 text-sm mb-6">Inicia el chat inmediato con la cuenta corporativa oficial B2B.</p>
         <div class="bg-white p-4 rounded-2xl shadow-2xl mb-6 transform transition hover:scale-105">
-          <img src="WhatsApp Image 2026-06-24 at 10.28.15 PM.jpeg" alt="QR WhatsApp Oficial" class="w-48 h-48 object-cover rounded-lg" onerror="handleImageError(this, 'IMG-23')">
+          <img src="https://dragonpillshoteles.github.io/dragonpills_moteles/WhatsApp Image 2026-06-24 at 10.28.15 PM.jpeg" alt="QR WhatsApp Oficial" class="w-48 h-48 object-cover rounded-lg" onerror="handleImageError(this, 'IMG-23')">
         </div>
         <a href="https://wa.me/message/PT46YSWT6EK6M1" target="_blank" class="text-brandGold hover:text-white font-bold text-sm uppercase tracking-widest transition flex items-center gap-2">
           <i class="fa-solid fa-link"></i> Abrir Enlace Web
@@ -328,7 +328,7 @@
   <div id="lightbox" class="fixed inset-0 z-50 bg-black/95 hidden items-center justify-center p-4" onclick="closeLightbox()">
     <button class="absolute top-4 right-4 text-white hover:text-brandGold text-3xl font-extrabold focus:outline-none">&times;</button>
     <div class="max-w-4xl max-h-full flex flex-col items-center gap-4" onclick="event.stopPropagation()">
-      <img id="lightbox-img" src="" alt="Ampliado" class="max-w-full max-h-[80vh] rounded-xl object-contain border border-brandGold/30 shadow-2xl">
+      <img id="lightbox-img" src="https://dragonpillshoteles.github.io/dragonpills_moteles/" alt="Ampliado" class="max-w-full max-h-[80vh] rounded-xl object-contain border border-brandGold/30 shadow-2xl">
       <div class="text-center bg-brandNavy/90 border border-brandGold/10 p-4 rounded-xl max-w-xl w-full">
         <h4 id="lightbox-title" class="text-brandGold font-bold text-lg">Título</h4>
       </div>
@@ -339,19 +339,19 @@
   <script>
     // Inventario para Modal y Fallbacks de las NUEVAS IMÁGENES
     const imageCatalog = {
-      'IMG-01': { title: 'Fuego & Hielo', src: 'image_1.png' },
-      'IMG-03': { title: 'Póster POP Recepción', src: 'image_3.png' },
-      'IMG-04': { title: 'Hablador Room Service', src: 'image_4.png' },
-      'IMG-07': { title: 'Logotipo Oficial', src: 'image_7.png' },
-      'IMG-23': { title: 'Escanea Código QR WhatsApp Oficial', src: 'WhatsApp Image 2026-06-24 at 10.28.15 PM.jpeg' },
-      'IMG-24': { title: 'Calidad Científica y de Laboratorio', src: 'Gemini_Generated_Image_ (28).png' },
-      'IMG-25': { title: 'Carta Responsiva de Consignación B2B', src: 'Gemini_Generated_Image_ (16).png' },
-      'IMG-26': { title: 'Rentabilidad y Crecimiento Hotelero', src: 'Gemini_Generated_Image_ (41).png' },
-      'IMG-27': { title: 'Sello Originalidad DragonPills', src: 'Gemini_Generated_Image_ (35).png' },
-      'IMG-28': { title: 'Campaña Atrevida Fresa 1', src: 'Gemini_Generated_Image_ (37).png' },
-      'IMG-29': { title: 'Campaña Atrevida Clavo', src: 'Gemini_Generated_Image_ (38).png' },
-      'IMG-30': { title: 'Campaña Atrevida Carrusel', src: 'Gemini_Generated_Image_ (39).png' },
-      'IMG-31': { title: 'Campaña Atrevida Fresa 2', src: 'Gemini_Generated_Image_ (40).png' }
+      'IMG-01': { title: 'Fuego & Hielo', src: 'https://dragonpillshoteles.github.io/dragonpills_moteles/image_1.png' },
+      'IMG-03': { title: 'Póster POP Recepción', src: 'https://dragonpillshoteles.github.io/dragonpills_moteles/image_3.png' },
+      'IMG-04': { title: 'Hablador Room Service', src: 'https://dragonpillshoteles.github.io/dragonpills_moteles/image_4.png' },
+      'IMG-07': { title: 'Logotipo Oficial', src: 'https://dragonpillshoteles.github.io/dragonpills_moteles/image_7.png' },
+      'IMG-23': { title: 'Escanea Código QR WhatsApp Oficial', src: 'https://dragonpillshoteles.github.io/dragonpills_moteles/WhatsApp Image 2026-06-24 at 10.28.15 PM.jpeg' },
+      'IMG-24': { title: 'Calidad Científica y de Laboratorio', src: 'https://dragonpillshoteles.github.io/dragonpills_moteles/Gemini_Generated_Image_ (28).png' },
+      'IMG-25': { title: 'Carta Responsiva de Consignación B2B', src: 'https://dragonpillshoteles.github.io/dragonpills_moteles/Gemini_Generated_Image_ (16).png' },
+      'IMG-26': { title: 'Rentabilidad y Crecimiento Hotelero', src: 'https://dragonpillshoteles.github.io/dragonpills_moteles/Gemini_Generated_Image_ (41).png' },
+      'IMG-27': { title: 'Sello Originalidad DragonPills', src: 'https://dragonpillshoteles.github.io/dragonpills_moteles/Gemini_Generated_Image_ (35).png' },
+      'IMG-28': { title: 'Campaña Atrevida Fresa 1', src: 'https://dragonpillshoteles.github.io/dragonpills_moteles/Gemini_Generated_Image_ (37).png' },
+      'IMG-29': { title: 'Campaña Atrevida Clavo', src: 'https://dragonpillshoteles.github.io/dragonpills_moteles/Gemini_Generated_Image_ (38).png' },
+      'IMG-30': { title: 'Campaña Atrevida Carrusel', src: 'https://dragonpillshoteles.github.io/dragonpills_moteles/Gemini_Generated_Image_ (39).png' },
+      'IMG-31': { title: 'Campaña Atrevida Fresa 2', src: 'https://dragonpillshoteles.github.io/dragonpills_moteles/Gemini_Generated_Image_ (40).png' }
     };
 
     function handleImageError(img, id) {
